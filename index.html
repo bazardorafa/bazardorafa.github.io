@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173f36">
+  <meta name="description" content="Bazar do Rafa. Um espaço para conhecer os itens do bazar em memória do Rafael. Catálogo em preparação.">
+  <title>Bazar do Rafa</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root{color-scheme:light;--paper:#faf9f5;--ink:#173f36;--muted:#5c6860;--line:#d6ddd4;--accent:#e8ef87}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:2rem}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit}a:focus-visible{outline:3px solid #739021;outline-offset:6px}.wrap{max-width:1160px;margin:auto;padding:0 48px}.skip{position:absolute;top:-80px;left:20px;padding:12px;background:white;z-index:2}.skip:focus{top:12px}header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:29px 0;border-bottom:1px solid var(--line)}.brand{text-decoration:none;font-weight:800;letter-spacing:-1px;font-size:23px}.brand span{font-weight:400}nav{display:flex;gap:30px;font-size:14px}nav a{text-decoration:none}nav a:hover{text-decoration:underline;text-underline-offset:5px}.hero{display:grid;grid-template-columns:1.4fr 1fr;align-items:center;gap:64px;padding:78px 0 72px}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:700;margin:0 0 22px;display:flex;align-items:center;gap:10px}.dot{width:7px;height:7px;border-radius:50%;background:#75904b;display:inline-block}h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(62px,8vw,100px);font-weight:400;line-height:.99;letter-spacing:-5px;margin:0 0 27px}h1 em{font-weight:400}.intro{font-size:18px;line-height:1.65;max-width:410px;color:var(--muted);margin:0 0 30px}.button{display:inline-flex;align-items:center;gap:34px;background:var(--ink);color:white;border-radius:5px;padding:17px 22px;text-decoration:none;font-size:15px;font-weight:600}.button:hover{background:#25594c}.note{background:var(--ink);color:var(--paper);padding:39px 34px 31px;border-radius:4px;transform:rotate(2deg);position:relative;box-shadow:10px 12px 0 #e8eadd}.note .eyebrow{font-size:11px;color:#dbe2bd;letter-spacing:2px}.note h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:39px;line-height:1.15;letter-spacing:-1px;margin:39px 0 20px}.note p{font-size:16px;line-height:1.65;color:#e1e8df;margin:0}.note-bottom{border-top:1px solid #587369;margin-top:35px;padding-top:20px;display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:1.2px}.heart{font-size:26px;color:var(--accent)}.catalog{border-top:1px solid var(--line);padding:42px 0 62px}.section-heading{display:flex;justify-content:space-between;gap:24px;align-items:center;margin-bottom:28px}.section-heading h2{font-family:Georgia,'Times New Roman',serif;font-size:34px;letter-spacing:-1px;font-weight:400;margin:0}.badge{background:#e9eecf;color:#415323;border-radius:30px;padding:8px 13px;font-size:13px}.empty{border:1px dashed #b9c5b8;border-radius:7px;text-align:center;padding:44px 24px;background:#f4f5ed}.empty-symbol{font-size:27px;margin-bottom:14px;color:#647852}.empty h3{font-size:18px;font-weight:600;margin:0 0 12px}.empty p{font-size:16px;line-height:1.65;color:var(--muted);max-width:475px;margin:0 auto}.about{padding:0 0 55px;display:grid;grid-template-columns:1fr 2fr;gap:60px}.about h2{font-size:13px;letter-spacing:1.7px;text-transform:uppercase;font-weight:700;margin:5px 0}.about p{font-size:17px;line-height:1.75;color:var(--muted);margin:0;max-width:630px}footer{border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:24px;padding:25px 0 30px;color:var(--muted);font-size:13px}footer strong{color:var(--ink);font-weight:600}
+    @media(max-width:760px){.wrap{padding:0 24px}header{padding:23px 0}.brand{font-size:20px}nav{gap:18px;font-size:13px}.hero{grid-template-columns:1fr;gap:42px;padding:48px 0 54px}h1{font-size:76px;letter-spacing:-4px}.intro{max-width:100%}.note{transform:none;padding:28px;box-shadow:6px 7px 0 #e8eadd}.note h2{font-size:32px;margin-top:25px}.note-bottom{margin-top:25px}.section-heading{align-items:flex-start}.section-heading h2{font-size:29px}.badge{font-size:12px;white-space:nowrap}.catalog{padding:35px 0 40px}.empty{padding:32px 20px}.about{grid-template-columns:1fr;gap:16px;padding-bottom:38px}footer{align-items:flex-start;flex-direction:column;gap:9px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./" aria-label="Bazar do Rafa — início">bazar<span>do</span>rafa<span>.</span></a>
+      <nav aria-label="Navegação principal"><a href="#catalogo">Catálogo</a><a href="#sobre">Sobre o bazar</a></nav>
+    </header>
+    <main id="conteudo">
+      <section class="hero" aria-labelledby="titulo">
+        <div>
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Feito com carinho, em memória do Rafael</p>
+          <h1 id="titulo">Bazar<br>do <em>Rafa.</em></h1>
+          <p class="intro">Uma nova história para cada item.<br>Um lugar especial para lembrar do Rafa.</p>
+          <a class="button" href="#catalogo">Conheça o catálogo <span aria-hidden="true">↗</span></a>
+        </div>
+        <aside class="note" aria-label="Em memória do Rafael">
+          <p class="eyebrow">Mais que um bazar</p>
+          <h2>Objetos seguem.<br>O carinho fica.</h2>
+          <p>Este espaço é dedicado ao Rafael, nosso vizinho eletricista, e aos itens que fizeram parte da sua história.</p>
+          <div class="note-bottom"><span>EM MEMÓRIA DO RAFA</span><span class="heart" aria-hidden="true">♡</span></div>
+        </aside>
+      </section>
+      <section class="catalog" id="catalogo" aria-labelledby="catalogo-titulo">
+        <div class="section-heading"><h2 id="catalogo-titulo">Catálogo do bazar</h2><span class="badge">Em preparação</span></div>
+        <div class="empty">
+          <div class="empty-symbol" aria-hidden="true">✳</div>
+          <h3>Estamos organizando tudo por aqui.</h3>
+          <p>Em breve, você poderá conhecer os itens do bazar, com fotos, descrições e preços. Volte para conferir.</p>
+        </div>
+      </section>
+      <section class="about" id="sobre" aria-labelledby="sobre-titulo">
+        <h2 id="sobre-titulo">Sobre esta iniciativa</h2>
+        <p>O Bazar do Rafa foi criado para reunir e divulgar os itens do Rafael em um só lugar. Um gesto de cuidado com sua história, feito para quem deseja conhecer o bazar.</p>
+      </section>
+    </main>
+    <footer><strong>Bazar do Rafa</strong><span>Feito com carinho. Em memória do Rafael.</span></footer>
+  </div>
+</body>
+</html>
