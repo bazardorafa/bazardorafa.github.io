@@ -33,11 +33,10 @@ nav{flex-wrap:wrap}.offer-field{display:block;width:100%;min-height:140px;paddin
     </header>
     <main id="conteudo">
       <section class="hero" aria-labelledby="titulo">
-        <div id="sobre">
-          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Uma iniciativa de amigos para apoiar a família</p>
+        <div>
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Feito com carinho, em memória do Rafael</p>
           <h1 id="titulo">Bazar<br>do <em>Rafa.</em></h1>
-          <p class="intro">Rafael faleceu após um acidente de trabalho. Ele havia aberto sua empresa recentemente e deixou ferramentas, equipamentos e muitos planos.</p>
-          <p class="intro">O Bazar do Rafa foi criado por amigos para apoiar Helen, sua esposa, e ajudar a família com os compromissos financeiros ligados à empresa e aos equipamentos.</p>
+          <p class="intro">Uma nova história para cada item.<br>Um lugar especial para lembrar do Rafa.</p>
           <a class="button" href="#catalogo">Conheça o catálogo <span aria-hidden="true">↗</span></a>
         </div>
         <aside class="note" aria-label="Em memória do Rafael">
@@ -51,6 +50,14 @@ nav{flex-wrap:wrap}.offer-field{display:block;width:100%;min-height:140px;paddin
           <div class="note-bottom"><span>EM MEMÓRIA DO RAFA</span><span class="heart" aria-hidden="true">♡</span></div>
         </aside>
       </section>
+      <section class="about" id="sobre" aria-labelledby="sobre-titulo" style="border-top:1px solid var(--line);padding-top:35px">
+        <h2 id="sobre-titulo">Sobre esta iniciativa</h2>
+        <div>
+          <p>Rafael faleceu após um acidente de trabalho. Ele havia aberto sua empresa recentemente e deixou ferramentas, equipamentos e muitos planos.</p>
+          <p>O Bazar do Rafa foi criado por amigos para apoiar Helen, sua esposa, e ajudar a família com os compromissos financeiros ligados à empresa e aos equipamentos.</p>
+          <p>Ao encontrar novos donos para esses itens, queremos que aquilo que foi útil ao Rafa continue sendo útil a outras pessoas. Cada compra e cada compartilhamento ajudam essa iniciativa a chegar mais longe.</p>
+        </div>
+      </section>
       <section class="catalog" id="catalogo" aria-labelledby="catalogo-titulo">
         <div class="section-heading"><h2 id="catalogo-titulo">Catálogo do bazar</h2><span class="badge">18 itens e conjuntos</span></div>
         <div class="filters"><label>Buscar no catálogo<input id="search" type="search" placeholder="Nome, marca ou código"></label><label>Categoria<select id="category"><option value="">Todas</option></select></label></div>
@@ -62,12 +69,6 @@ nav{flex-wrap:wrap}.offer-field{display:block;width:100%;min-height:140px;paddin
         <p class="catalog-note">Encontrou algo útil? Escolha uma peça ou proponha pelo conjunto. As fotos estão agrupadas por tipo de material; confirme as peças, o estado e a disponibilidade antes de combinar a compra. Não é um leilão.</p>
         <p class="catalog-note">Use “Fazer uma oferta” para abrir o WhatsApp do Fernando com o item identificado. Acrescente as peças desejadas e o valor antes de enviar. A busca e o filtro acima também incluem estes grupos.</p>
         <p id="avulsos-count" aria-live="polite"></p><div id="avulsos-products" class="products"></div>
-      </section>
-      <section class="about" aria-labelledby="memoria-titulo">
-        <h2 id="memoria-titulo">Em memória do Rafa</h2>
-        <div>
-          <p>Ao encontrar novos donos para esses itens, queremos que aquilo que foi útil ao Rafa continue sendo útil a outras pessoas. Cada compra e cada compartilhamento ajudam essa iniciativa a chegar mais longe.</p>
-        </div>
       </section>
       <section class="donation" aria-labelledby="doacao-titulo">
         <h2 id="doacao-titulo">Quer ajudar de outra forma?</h2>
